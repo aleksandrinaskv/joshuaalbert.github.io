@@ -93,16 +93,16 @@ keywords: "Joshua Albert,astronomy,ionosphere calibration,radio astronomy"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#CCE9FF"
+navbar-text-col: "#303030"
+navbar-border-col: "#000000"
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
+text-col: "#303030"
+link-col: "#4C5963"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-col: "#CCE9FF"
+footer-text-col: "#303030"
+footer-link-col: "#4C5963"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
