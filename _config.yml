@@ -221,8 +221,32 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/scholar
+  - jekyll-scholar
+
+gems: ['jekyll/scholar']
 
 scholar:
   style: annual-review-of-astronomy-and-astrophysics
+  locale: en
 
+
+  sort_by: year, month
+  order: descending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: cite.bib
+  bibliography_template: ""
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
