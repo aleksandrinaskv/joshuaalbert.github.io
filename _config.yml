@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Home
 
 # Your name to show in the footer
 author: Joshua Albert
@@ -16,15 +16,13 @@ author: Joshua Albert
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Leiden University: "https://www.universiteitleiden.nl/en/staffmembers/joshua-albert"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/head-shot.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -64,7 +62,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
@@ -89,7 +87,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Joshua Albert,astronomy,ionosphere calibration,radio astronomy"
 
 # --- Colours / background image --- #
 
@@ -130,7 +128,7 @@ footer-link-col: "#404040"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: "G-XH8H1PQ8WN"
+google_analytics: "G-XH8H1PQ8WN"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -186,7 +184,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Amsterdam"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -213,13 +211,11 @@ defaults:
 
 # Exclude these files from production site
 exclude:
-  - CHANGELOG.md
   - CNAME
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
-  - screenshot.png
   - docs/
 
 plugins:
